@@ -21,6 +21,8 @@ include 'components/wishlist_cart.php';
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="viewport" 
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
    <title>1514Gobananas</title>
 
    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
@@ -177,15 +179,15 @@ include 'components/wishlist_cart.php';
                <h3>Baby Girls</h3>
             </a>
             <a href="category.php?category=Party Wear Froks" class="swiper-slide slide">
-               <img src="images/icon-8.png" alt="">
+               <img src="images/icon-9.png" alt="">
                <h3>Party Wear Froks</h3>
             </a>
             <a href="category.php?category=Bundle of Joy" class="swiper-slide slide">
-               <img src="images/icon-8.png" alt="">
+               <img src="images/icon-10.png" alt="">
                <h3>Bundle of Joy</h3>
             </a>
             <a href="category.php?category=Accessories" class="swiper-slide slide">
-               <img src="images/icon-8.png" alt="">
+               <img src="images/icon-11.png" alt="">
                <h3>Accessories</h3>
             </a>
 

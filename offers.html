@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" 
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
     <link rel="icon" href="images/logomain.png" type="image/icon type">
     <title>OFFERS</title>
     <style>
@@ -166,7 +168,7 @@
                 <label for="name">Enter your Name</label>
             </div>
             <div class="input-field">
-                <input type="number" id="contact" name="contact" min="0" max="9999999999" required>
+                <input type="number" id="contact" name="contact" min="0" max="9999999999" onkeypress="if(this.value.length == 10) return false;" required>
                 <label for="contact">Enter your Contact Number</label>
             </div>
             <div class="input-field">

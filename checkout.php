@@ -55,11 +55,13 @@ if (isset($_POST['order'])) {
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="viewport" 
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
    <title>Checkout</title>
 
    <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-
+   <link rel="icon" href="images/logomain.png" type="image/icon type">
    <!-- custom css file link  -->
    <link rel="stylesheet" href="css/style.css">
 
@@ -97,7 +99,7 @@ if (isset($_POST['order'])) {
          <input type="hidden" name="total_price" value="<?= $grand_total; ?>">
          <div class="grand-total">Grand Total : <span>Rs.<?= $grand_total; ?>/-</span></div>
       </div>
-
+         
       <h3>Place Your Order</h3>
 
       <div class="flex">
